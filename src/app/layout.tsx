@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Timi - Multi-LLM Chat Interface',
   description: 'A modern, minimalistic chat interface supporting multiple LLM providers',
-  keywords: ['ai', 'chatbot', 'llm', 'openai', 'claude', 'gemini'],
+  keywords: ['ai', 'chatbot', 'llm', 'openai', 'claude', 'gemini', 'timi'],
 }
 
 export default function RootLayout({
