@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove deprecated experimental.appDir - it's default in Next.js 14
+  // Enable static export for deployment
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  env: {
-    CUSTOM_KEY: process.env.CUSTOM_KEY,
-  },
+  }
 }
 
 module.exports = nextConfig

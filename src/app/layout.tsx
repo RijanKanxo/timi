@@ -1,13 +1,13 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { Toaster } from 'sonner'
 import { Providers } from '@/components/providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Timi - AI Assistant',
-  description: 'Your intelligent AI assistant with file sharing, multi-LLM support, and advanced features',
+  title: 'Timi - Multi-LLM Chat Interface',
+  description: 'A modern, minimalistic chat interface supporting multiple LLM providers',
+  keywords: ['ai', 'chatbot', 'llm', 'openai', 'claude', 'gemini'],
 }
 
 export default function RootLayout({
@@ -20,7 +20,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           {children}
-          <Toaster position="top-center" />
         </Providers>
       </body>
     </html>

@@ -51,8 +51,8 @@ A modern, minimalistic chat interface that supports multiple Large Language Mode
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/timi-chat.git
-cd timi-chat
+git clone https://github.com/RijanKanxo/timi.git
+cd timi
 ```
 
 2. Install dependencies:
@@ -171,6 +171,26 @@ To add a new LLM provider:
 
 ## Deployment
 
+### GitHub Pages (Free & Easy)
+
+Deploy directly from your GitHub repository:
+
+1. **Push your code to GitHub**:
+```bash
+git add .
+git commit -m "Deploy to GitHub Pages"
+git push origin main
+```
+
+2. **Enable GitHub Pages**:
+   - Go to your repository → Settings → Pages
+   - Source: Select "GitHub Actions"
+   - The deployment workflow will run automatically
+
+3. **Access your app**:
+   - Your app will be available at: `https://RijanKanxo.github.io/timi`
+   - GitHub will automatically rebuild and deploy when you push changes
+
 ### Vercel (Recommended)
 
 1. Push your code to GitHub
@@ -210,7 +230,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/timi-chat/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/RijanKanxo/timi/issues) on GitHub.
 
 ---
 

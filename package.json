@@ -16,13 +16,13 @@
     "typescript",
     "react"
   ],
-  "homepage": "https://github.com/yourusername/timi-chat#readme",
+  "homepage": "https://github.com/RijanKanxo/timi#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/timi-chat.git"
+    "url": "https://github.com/RijanKanxo/timi.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/timi-chat/issues"
+    "url": "https://github.com/RijanKanxo/timi/issues"
   },
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
@@ -58,7 +58,6 @@
     "rehype-katex": "^7.0.0",
     "remark-gfm": "^4.0.0",
     "remark-math": "^6.0.0",
-    "sonner": "^2.0.6",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.0.0",
     "uuid": "^9.0.1",
