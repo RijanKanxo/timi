@@ -2,7 +2,7 @@
 
 A modern, minimalistic chat interface that supports multiple Large Language Model (LLM) providers. Built with Next.js 14, TypeScript, and Tailwind CSS.
 
-![Timi Screenshot](./docs/screenshot.png)
+
 
 ## Features
 
@@ -187,10 +187,6 @@ git push origin main
    - Source: Select "GitHub Actions"
    - The deployment workflow will run automatically
 
-3. **Access your app**:
-   - Your app will be available at: `https://RijanKanxo.github.io/timi`
-   - GitHub will automatically rebuild and deploy when you push changes
-
 ### Vercel (Recommended)
 
 1. Push your code to GitHub
@@ -234,4 +230,4 @@ If you encounter any issues or have questions, please [open an issue](https://gi
 
 ---
 
-Made with ❤️ for the AI community
+Made with ❤️ to learn how to build. 
